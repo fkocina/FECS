@@ -1,0 +1,20 @@
+_FECS:_Fast_Electronic_Circuits_Simulator_
+This software was used to approximate the behavior of electronic circuits
+in my PhD thesis. It utilizes the Capacitor Substitution Method (CSM) to
+transform electronic circuits into electric circuits described by ordinary
+differential equations. The concept of CSM is thoroughly explained in the
+thesis (http://www.fit.vut.cz/study/DP/PD.php?id=623&file=t) and whenever
+I speak about chapters, it is there you should look.
+
+_Dependencies_
+The software is written for Linux and uses following programs/libraries:
+- C++ compiler (e.g. g++),
+- pthread,
+- make,
+- lex,
+- yacc.
+
+_License_
+GPLv3 (C) Filip Kocina
+You should have received a copy of the license; if not, see
+<http://www.gnu.org/licenses/>.
