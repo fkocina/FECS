@@ -18,7 +18,7 @@
 
 .PHONY: clean
 
-PROJ=vlsi
+PROJ=fecs
 CC=$(CXX)
 CFLAGS=-O2 -lpthread
 CXXFLAGS=$(CFLAGS)
